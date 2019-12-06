@@ -72,7 +72,6 @@ To clarify the current state, display the text value to the right of the toggle 
 
 ## Symantic Toggle
 `fd-toggle--semantic` modifier renders semnatic colors and icons inside the toggle switch
-
 {% capture default %}
 <label>
     <span class="fd-toggle fd-toggle--semantic">
