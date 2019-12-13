@@ -15,14 +15,12 @@ The combobox input component is an opinionated composition of the `input group`,
 {% capture default %}
 <div class="documentation-site-popover-container">
   <div class="fd-popover">
-      <div class="fd-popover__control">
-          <div aria-label="Image label" aria-controls="F4GcX348" aria-expanded="false" aria-haspopup="true">
-              <div class="fd-input-group">
-                  <input type="text" class="fd-input fd-input-group__input" id="" placeholder="Select Fruit">
-                  <span class="fd-input-group__addon fd-input-group__addon--button">
-                      <button class="fd-input-group__button fd-button--light sap-icon--navigation-down-arrow"></button>
-                  </span>
-              </div>
+      <div class="fd-popover__control fd-input-group__control" aria-controls="F4GcX348" aria-expanded="false" aria-haspopup="true">
+          <div class="fd-input-group">
+              <input type="text" class="fd-input fd-input-group__input" id="" placeholder="Select Fruit">
+              <span class="fd-input-group__addon fd-input-group__addon--button">
+                  <button class="fd-input-group__button fd-button--light sap-icon--navigation-down-arrow fd-select__button"></button>
+              </span>
           </div>
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX348">

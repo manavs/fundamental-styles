@@ -18,10 +18,11 @@ The select control (also known as a dropdown) is commonly used to enable users t
    <div class="fd-popover">
       <div class="fd-popover__control">
          <div class="fd-select">
-            <button class="fd-select__control" aria-controls="h0C6A325" aria-expanded="false" aria-haspopup="true">
-               Select
-            </button>
-         </div>
+             <div class="fd-select__control" aria-controls="h0C6A325" tabindex="0" aria-expanded="false" aria-haspopup="true">
+                 Select
+                 <button class="fd-button fd-button--light sap-icon--slim-arrow-down fd-select__button" tabindex="-1"></button>
+             </div>
+          </div>
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A325">
          <ul class="fd-list fd-list--no-border" role="listbox">
@@ -49,9 +50,10 @@ The select control (also known as a dropdown) is commonly used to enable users t
    <div class="fd-popover">
       <div class="fd-popover__control">
          <div class="fd-select fd-select--compact">
-            <button class="fd-select__control" aria-controls="h0C6A326" aria-expanded="false" aria-haspopup="true">
-               Select
-            </button>
+            <div class="fd-select__control" aria-controls="h0C6A326" aria-expanded="false" aria-haspopup="true">
+                Select
+                <button class="fd-button fd-button--light sap-icon--slim-arrow-down fd-select__button"></button>
+            </div>
          </div>
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A326">
@@ -82,9 +84,10 @@ The select control (also known as a dropdown) is commonly used to enable users t
 <div class="fd-popover">
    <div class="fd-popover__control">
       <div class="fd-select fd-select--inline">
-         <button class="fd-select__control" aria-controls="h0C6A335" aria-expanded="false" aria-haspopup="true">
+        <div class="fd-select__control" aria-controls="h0C6A335" aria-expanded="false" aria-haspopup="true">
             Select
-         </button>
+            <button class="fd-button fd-button--light sap-icon--slim-arrow-down fd-select__button"></button>
+        </div>
       </div>
    </div>
    <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A335">
@@ -108,9 +111,10 @@ The select control (also known as a dropdown) is commonly used to enable users t
 <div class="fd-popover">
    <div class="fd-popover__control">
       <div class="fd-select fd-select--inline fd-select--compact">
-         <button class="fd-select__control" aria-controls="h0C6A336" aria-expanded="false" aria-haspopup="true">
+        <div class="fd-select__control" aria-controls="h0C6A336" tabindex="0" aria-expanded="false" aria-haspopup="true">
             Select
-         </button>
+            <button class="fd-button fd-button--light sap-icon--slim-arrow-down fd-select__button" tabindex="-1"></button>
+        </div>
       </div>
    </div>
    <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A336">
