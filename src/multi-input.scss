@@ -23,8 +23,9 @@ $block: #{$fd-namespace}-multi-input;
   &__label {
     width: 100%;
     font-size: var(--sapFontSize);
+    position: relative;
 
-    @include fd-focus() {
+    &:focus-within {
       box-shadow: none;
       outline-offset: -0.1875rem;
       outline-width: var(--sapContent_FocusWidth);
@@ -45,5 +46,13 @@ $block: #{$fd-namespace}-multi-input;
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+
+    @include fd-focus() {
+      box-shadow: none;
+
+      &::before {
+        content: none;
+      }
+    }
   }
 }

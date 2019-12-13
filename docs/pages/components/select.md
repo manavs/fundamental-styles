@@ -18,25 +18,29 @@ The select control (also known as a dropdown) is commonly used to enable users t
    <div class="fd-popover">
       <div class="fd-popover__control">
          <div class="fd-select">
-             <div class="fd-select__control" aria-controls="h0C6A325" tabindex="0" aria-expanded="false" aria-haspopup="true">
+             <div class="fd-select__control" aria-controls="h0C6A325" aria-expanded="false" aria-haspopup="true">
                  Select
-                 <button class="fd-button fd-button--light sap-icon--slim-arrow-down fd-select__button" tabindex="-1"></button>
+                 <button class="fd-button fd-button--light sap-icon--slim-arrow-down fd-select__button"></button>
              </div>
           </div>
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A325">
-         <ul class="fd-list fd-list--no-border" role="listbox">
-            <li class="fd-list__item" role="option">
+         <ul class="fd-list" role="listbox">
+            <li class="fd-list__item is-selected" role="option">
                <span class="fd-list__title">List item 1</span>
+               <span class="fd-list__secondary fd-multi-input__text">A1</span>
             </li>
             <li class="fd-list__item" role="option">
                <span class="fd-list__title">List item 2</span>
-            </li>
+               <span class="fd-list__secondary fd-multi-input__text">A2</span>
+           </li>
             <li class="fd-list__item" role="option">
                <span class="fd-list__title">List item 3</span>
+               <span class="fd-list__secondary fd-multi-input__text">A3</span>
             </li>
             <li class="fd-list__item" role="option">
                <span class="fd-list__title">List item 4</span>
+               <span class="fd-list__secondary fd-multi-input__text">A4</span>
             </li>
          </ul>
       </div>
@@ -111,9 +115,9 @@ The select control (also known as a dropdown) is commonly used to enable users t
 <div class="fd-popover">
    <div class="fd-popover__control">
       <div class="fd-select fd-select--inline fd-select--compact">
-        <div class="fd-select__control" aria-controls="h0C6A336" tabindex="0" aria-expanded="false" aria-haspopup="true">
+        <div class="fd-select__control" aria-controls="h0C6A336" aria-expanded="false" aria-haspopup="true">
             Select
-            <button class="fd-button fd-button--light sap-icon--slim-arrow-down fd-select__button" tabindex="-1"></button>
+            <button class="fd-button fd-button--light sap-icon--slim-arrow-down fd-select__button"></button>
         </div>
       </div>
    </div>

@@ -24,14 +24,20 @@ The combobox input component is an opinionated composition of the `input group`,
           </div>
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX348">
-          <nav class="fd-menu">
-          <ul class="fd-menu__list">
-              <li><a href="#" class="fd-menu__item">Pear</a></li>
-              <li><a href="#" class="fd-menu__item">Strawberry</a></li>
-              <li><a href="#" class="fd-menu__item">Raspberry</a></li>
-              <li><a href="#" class="fd-menu__item fd-menu__link">+ New Item</a></li>
-          </ul>
-          </nav>
+            <ul class="fd-list fd-list--no-border" role="listbox">
+                <li class="fd-list__item is-selected" role="option">
+                  <a href="#" class="fd-list__title">List item 1</a>
+                </li>
+                <li class="fd-list__item" role="option">
+                  <a href="#" class="fd-list__title">List item 2</a>
+                </li>
+                <li class="fd-list__item" role="option">
+                  <a href="#" class="fd-list__title">List item 3</a>
+                </li>
+                <li class="fd-list__item" role="option">
+                  <a href="#" class="fd-list__title">List item 4</a>
+                </li>
+            </ul>
       </div>
   </div>
 </div>
@@ -51,14 +57,20 @@ The combobox input component is an opinionated composition of the `input group`,
           </div>
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX34">
-          <nav class="fd-menu">
-          <ul class="fd-menu__list">
-              <li><a href="#" class="fd-menu__item">Pear</a></li>
-              <li><a href="#" class="fd-menu__item">Strawberry</a></li>
-              <li><a href="#" class="fd-menu__item">Raspberry</a></li>
-              <li><a href="#" class="fd-menu__item fd-menu__link">+ New Item</a></li>
-          </ul>
-          </nav>
+            <ul class="fd-list fd-list--no-border" role="listbox">
+                <li class="fd-list__item is-selected" role="option">
+                    <a href="#" class="fd-list__title">List item 1</a>
+                </li>
+                <li class="fd-list__item" role="option">
+                    <a href="#" class="fd-list__title">List item 2</a>
+                </li>
+                <li class="fd-list__item" role="option">
+                    <a href="#" class="fd-list__title">List item 3</a>
+                </li>
+                <li class="fd-list__item" role="option">
+                    <a href="#" class="fd-list__title">List item 4</a>
+                </li>
+            </ul>
       </div>
   </div>
 </div>
