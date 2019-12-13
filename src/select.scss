@@ -32,6 +32,10 @@ $block: #{$fd-namespace}-select;
     }
   }
 
+  &__text {
+    font-size: var(--sapFontSize);
+  }
+
   &--inline {
     display: inline-block;
   }

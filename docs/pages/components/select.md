@@ -25,22 +25,22 @@ The select control (also known as a dropdown) is commonly used to enable users t
           </div>
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A325">
-         <ul class="fd-list" role="listbox">
+         <ul class="fd-list fd-list--no-border" role="listbox">
             <li class="fd-list__item is-selected" role="option">
-               <span class="fd-list__title">List item 1</span>
-               <span class="fd-list__secondary fd-multi-input__text">A1</span>
+               <span class="fd-list__title fd-select__text">List item 1</span>
+               <span class="fd-list__secondary fd-select__text">A1</span>
             </li>
             <li class="fd-list__item" role="option">
-               <span class="fd-list__title">List item 2</span>
-               <span class="fd-list__secondary fd-multi-input__text">A2</span>
+               <span class="fd-list__title fd-select__text">List item 2</span>
+               <span class="fd-list__secondary fd-select__text">A2</span>
            </li>
             <li class="fd-list__item" role="option">
-               <span class="fd-list__title">List item 3</span>
-               <span class="fd-list__secondary fd-multi-input__text">A3</span>
+               <span class="fd-list__title fd-select__text">List item 3</span>
+               <span class="fd-list__secondary fd-select__text">A3</span>
             </li>
             <li class="fd-list__item" role="option">
-               <span class="fd-list__title">List item 4</span>
-               <span class="fd-list__secondary fd-multi-input__text">A4</span>
+               <span class="fd-list__title fd-select__text">List item 4</span>
+               <span class="fd-list__secondary fd-select__text">A4</span>
             </li>
          </ul>
       </div>
@@ -63,16 +63,16 @@ The select control (also known as a dropdown) is commonly used to enable users t
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A326">
          <ul class="fd-list fd-list--no-border fd-list--compact" role="listbox">
             <li class="fd-list__item" role="option">
-               <span class="fd-list__title">List item 1</span>
+               <span class="fd-list__title fd-select__text">List item 1</span>
             </li>
             <li class="fd-list__item" role="option">
-               <span class="fd-list__title">List item 2</span>
+               <span class="fd-list__title fd-select__text">List item 2</span>
             </li>
             <li class="fd-list__item" role="option">
-               <span class="fd-list__title">List item 3</span>
+               <span class="fd-list__title fd-select__text">List item 3</span>
             </li>
             <li class="fd-list__item" role="option">
-               <span class="fd-list__title">List item 4</span>
+               <span class="fd-list__title fd-select__text">List item 4</span>
             </li>
          </ul>
       </div>
@@ -97,16 +97,16 @@ The select control (also known as a dropdown) is commonly used to enable users t
    <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A335">
       <ul class="fd-list fd-list--no-border" role="listbox">
          <li class="fd-list__item" role="option">
-            <span class="fd-list__title">List item 1</span>
+            <span class="fd-list__title fd-select__text">List item 1</span>
          </li>
          <li class="fd-list__item" role="option">
-            <span class="fd-list__title">List item 2</span>
+            <span class="fd-list__title fd-select__text">List item 2</span>
          </li>
          <li class="fd-list__item" role="option">
-            <span class="fd-list__title">List item 3</span>
+            <span class="fd-list__title fd-select__text">List item 3</span>
          </li>
          <li class="fd-list__item" role="option">
-            <span class="fd-list__title">List item 4</span>
+            <span class="fd-list__title fd-select__text">List item 4</span>
          </li>
       </ul>
    </div>
@@ -124,16 +124,16 @@ The select control (also known as a dropdown) is commonly used to enable users t
    <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A336">
       <ul class="fd-list fd-list--no-border fd-list--compact" role="listbox">
          <li class="fd-list__item" role="option">
-            <span class="fd-list__title">List item 1</span>
+            <span class="fd-list__title fd-select__text">List item 1</span>
          </li>
          <li class="fd-list__item" role="option">
-            <span class="fd-list__title">List item 2</span>
+            <span class="fd-list__title fd-select__text">List item 2</span>
          </li>
          <li class="fd-list__item" role="option">
-            <span class="fd-list__title">List item 3</span>
+            <span class="fd-list__title fd-select__text">List item 3</span>
          </li>
          <li class="fd-list__item" role="option">
-            <span class="fd-list__title">List item 4</span>
+            <span class="fd-list__title fd-select__text">List item 4</span>
          </li>
       </ul>
    </div>

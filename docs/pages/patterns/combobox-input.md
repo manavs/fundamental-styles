@@ -46,16 +46,14 @@ The combobox input component is an opinionated composition of the `input group`,
 
 <div class="documentation-site-popover-container">
   <div class="fd-popover">
-      <div class="fd-popover__control">
-          <div aria-label="Image label" aria-controls="F4GcX34" aria-expanded="false" aria-haspopup="true">
-              <div class="fd-input-group">
-                  <input type="text" class="fd-input fd-input--compact fd-input-group__input" id="" placeholder="Select Fruit">
-                  <span class="fd-input-group__addon fd-input-group__addon--button fd-input-group__addon--compact">
-                      <button class="fd-input-group__button fd-button--compact fd-button--light sap-icon--navigation-down-arrow"></button>
-                  </span>
-              </div>
-          </div>
-      </div>
+      <div class="fd-popover__control fd-input-group__control" aria-controls="F4GcX34" aria-expanded="false" aria-haspopup="true">
+                <div class="fd-input-group">
+                    <input type="text" class="fd-input fd-input--compact fd-input-group__input" id="" placeholder="Select Fruit">
+                    <span class="fd-input-group__addon fd-input-group__addon--compact fd-input-group__addon--button">
+                        <button class="fd-input-group__button fd-button--compact fd-button--light sap-icon--navigation-down-arrow fd-select__button"></button>
+                    </span>
+                </div>
+            </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX34">
             <ul class="fd-list fd-list--no-border" role="listbox">
                 <li class="fd-list__item is-selected" role="option">
