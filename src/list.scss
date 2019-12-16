@@ -6,7 +6,11 @@ $block: #{$fd-namespace}-list;
 
 .#{$block} {
   @include fd-reset();
-  @include list();
+  @include list($block);
+
+  &__item {
+    border-bottom: var(--sapList_BorderWidth) solid var(--sapList_BorderColor);
+  }
 
   &__title {
     font-size: var(--sapFontLargeSize);

@@ -24,18 +24,18 @@ The combobox input component is an opinionated composition of the `input group`,
           </div>
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX348">
-            <ul class="fd-list fd-list--no-border" role="listbox">
-                <li class="fd-list__item is-selected" role="option">
-                  <a href="#" class="fd-list__title">List item 1</a>
+            <ul class="fd-dropdown-list" role="listbox">
+                <li class="fd-dropdown-list__item is-selected" role="option">
+                  <span href="#" class="fd-dropdown-list__title">List item 1</span>
                 </li>
-                <li class="fd-list__item" role="option">
-                  <a href="#" class="fd-list__title">List item 2</a>
+                <li class="fd-dropdown-list__item" role="option">
+                  <span href="#" class="fd-dropdown-list__title">List item 2</span>
                 </li>
-                <li class="fd-list__item" role="option">
-                  <a href="#" class="fd-list__title">List item 3</a>
+                <li class="fd-dropdown-list__item" role="option">
+                  <span href="#" class="fd-dropdown-list__title">List item 3</span>
                 </li>
-                <li class="fd-list__item" role="option">
-                  <a href="#" class="fd-list__title">List item 4</a>
+                <li class="fd-dropdown-list__item" role="option">
+                  <span href="#" class="fd-dropdown-list__title">List item 4</span>
                 </li>
             </ul>
       </div>
@@ -57,16 +57,16 @@ The combobox input component is an opinionated composition of the `input group`,
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX34">
             <ul class="fd-list fd-list--no-border" role="listbox">
                 <li class="fd-list__item is-selected" role="option">
-                    <a href="#" class="fd-list__title">List item 1</a>
+                    <span href="#" class="fd-list__title">List item 1</span>
                 </li>
                 <li class="fd-list__item" role="option">
-                    <a href="#" class="fd-list__title">List item 2</a>
+                    <span href="#" class="fd-list__title">List item 2</span>
                 </li>
                 <li class="fd-list__item" role="option">
-                    <a href="#" class="fd-list__title">List item 3</a>
+                    <span href="#" class="fd-list__title">List item 3</span>
                 </li>
                 <li class="fd-list__item" role="option">
-                    <a href="#" class="fd-list__title">List item 4</a>
+                    <span href="#" class="fd-list__title">List item 4</span>
                 </li>
             </ul>
       </div>
