@@ -16,14 +16,12 @@ summary:
 <div class="fd-multi-input">
     <div class="fd-multi-input-field">
         <div class="fd-popover">
-            <div class="fd-popover__control fd-input-group__control">
-                <div aria-label="Image label" aria-controls="F4GcX348a" aria-expanded="false" aria-haspopup="true">
-                    <div class="fd-input-group">
-                        <input type="text" class="fd-input fd-input-group__input" id="" placeholder="Select Fruit">
-                        <span class="fd-input-group__addon fd-input-group__addon--button">
-                            <button class="fd-input-group__button fd-button--light sap-icon--value-help"></button>
-                        </span>
-                    </div>
+            <div class="fd-popover__control fd-input-group__control" aria-controls="F4GcX348a" aria-expanded="false" aria-haspopup="true">
+                <div class="fd-input-group">
+                    <input type="text" class="fd-input fd-input-group__input" id="" placeholder="Select Fruit">
+                    <span class="fd-input-group__addon fd-input-group__addon--button">
+                        <button class="fd-input-group__button fd-button--light sap-icon--value-help"></button>
+                    </span>
                 </div>
             </div>
             <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX348a">
@@ -65,14 +63,12 @@ summary:
 <div class="fd-multi-input">
     <div class="fd-multi-input-field">
         <div class="fd-popover">
-            <div class="fd-popover__control fd-input-group__control">
-                <div aria-label="Image label" aria-controls="F4GcX34a" aria-expanded="false" aria-haspopup="true">
-                    <div class="fd-input-group">
-                        <input type="text" class="fd-input fd-input--compact fd-input-group__input" id="" placeholder="Select Fruit">
-                        <span class="fd-input-group__addon fd-input-group__addon--button fd-input-group__addon--compact">
-                            <button class="fd-input-group__button fd-button--light fd-button--compact sap-icon--value-help"></button>
-                        </span>
-                    </div>
+            <div class="fd-popover__control fd-input-group__control"  aria-controls="F4GcX34a" aria-expanded="false" aria-haspopup="true">
+                <div class="fd-input-group">
+                    <input type="text" class="fd-input fd-input--compact fd-input-group__input" id="" placeholder="Select Fruit">
+                    <span class="fd-input-group__addon fd-input-group__addon--button fd-input-group__addon--compact">
+                        <button class="fd-input-group__button fd-button--light fd-button--compact sap-icon--value-help"></button>
+                    </span>
                 </div>
             </div>
             <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX34a">

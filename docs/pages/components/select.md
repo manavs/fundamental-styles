@@ -62,10 +62,10 @@ The select control (also known as a dropdown) is commonly used to enable users t
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="h0C6A326">
          <ul class="fd-dropdown-list fd-dropdown-list--compact" role="listbox">
-            <li class="fd-dropdown-list__item" role="option">
+            <li class="fd-dropdown-list__item is-selected" role="option">
                <span class="fd-dropdown-list__title">
                    Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text
-                   Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text, Very long text
+                   Very long text, Very long text, Very long text
                </span>
             </li>
             <li class="fd-dropdown-list__item" role="option">

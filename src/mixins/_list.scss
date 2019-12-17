@@ -2,6 +2,10 @@
 @import "./mixins";
 
 @mixin list($block) {
+  $fd-list-vertical-padding: 0.875rem;
+  $fd-list-horizontal-padding: 1rem;
+  $fd-list-vertical-compact-padding: 0.5rem;
+
   list-style: none;
   width: 100%;
 
@@ -10,14 +14,13 @@
   &__footer {
     @include fd-reset();
 
-    padding: 0 1rem;
-    height: 2.75rem;
     display: flex;
     align-items: center;
   }
 
   &__item {
     background: var(--sapList_Background);
+    padding: $fd-list-vertical-padding $fd-list-horizontal-padding;
 
     @include fd-hover() {
       background: var(--sapList_Hover_Background);
@@ -57,8 +60,9 @@
   &__secondary {
     @include fd-reset();
 
+    line-height: 1rem;
     color: var(--sapList_TextColor);
-    white-space: nowrap;
+    white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -119,6 +123,7 @@
     align-items: flex-end;
     font-size: var(--sapFontSize);
     font-weight: bold;
+    height: 2.75rem;
     line-height: 2rem;
   }
 
@@ -131,7 +136,7 @@
 
   &--compact {
     .#{$block}__item {
-      height: 2rem;
+      padding: $fd-list-vertical-compact-padding $fd-list-horizontal-padding;
     }
 
     .#{$block}__title {
