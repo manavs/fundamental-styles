@@ -18,24 +18,24 @@ The combobox input component is an opinionated composition of the `input group`,
       <div class="fd-popover__control fd-input-group__control" aria-controls="F4GcX348" aria-expanded="false" aria-haspopup="true">
           <div class="fd-input-group">
               <input type="text" class="fd-input fd-input-group__input" id="" placeholder="Select Fruit">
-              <span class="fd-input-group__addon fd-input-group__addon--button">
+              <a class="fd-input-group__addon fd-input-group__addon--button">
                   <button class="fd-input-group__button fd-button--light sap-icon--navigation-down-arrow fd-select__button"></button>
-              </span>
+              </a>
           </div>
       </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX348">
             <ul class="fd-dropdown-list" role="listbox">
                 <li class="fd-dropdown-list__item is-selected" role="option">
-                  <span href="#" class="fd-dropdown-list__title">List item 1</span>
+                  <a href="#" class="fd-dropdown-list__title">List item 1</a>
                 </li>
                 <li class="fd-dropdown-list__item" role="option">
-                  <span href="#" class="fd-dropdown-list__title">List item 2</span>
+                  <a href="#" class="fd-dropdown-list__title">List item 2</a>
                 </li>
                 <li class="fd-dropdown-list__item" role="option">
-                  <span href="#" class="fd-dropdown-list__title">List item 3</span>
+                  <a href="#" class="fd-dropdown-list__title">List item 3</a>
                 </li>
                 <li class="fd-dropdown-list__item" role="option">
-                  <span href="#" class="fd-dropdown-list__title">List item 4</span>
+                  <a href="#" class="fd-dropdown-list__title">List item 4</a>
                 </li>
             </ul>
       </div>
@@ -49,24 +49,24 @@ The combobox input component is an opinionated composition of the `input group`,
       <div class="fd-popover__control fd-input-group__control" aria-controls="F4GcX34" aria-expanded="false" aria-haspopup="true">
                 <div class="fd-input-group">
                     <input type="text" class="fd-input fd-input--compact fd-input-group__input" id="" placeholder="Select Fruit">
-                    <span class="fd-input-group__addon fd-input-group__addon--compact fd-input-group__addon--button">
+                    <a class="fd-input-group__addon fd-input-group__addon--compact fd-input-group__addon--button">
                         <button class="fd-input-group__button fd-button--compact fd-button--light sap-icon--navigation-down-arrow fd-select__button"></button>
-                    </span>
+                    </a>
                 </div>
             </div>
       <div class="fd-popover__body fd-popover__body--no-arrow" aria-hidden="true" id="F4GcX34">
-            <ul class="fd-list fd-list--no-border" role="listbox">
-                <li class="fd-list__item is-selected" role="option">
-                    <span href="#" class="fd-list__title">List item 1</span>
+            <ul class="fd-dropdown-list fd-dropdown-list--compact" role="listbox">
+                <li class="fd-dropdown-list__item is-selected" role="option">
+                    <a href="#" class="fd-dropdown-list__title">List item 1</a>
                 </li>
-                <li class="fd-list__item" role="option">
-                    <span href="#" class="fd-list__title">List item 2</span>
+                <li class="fd-dropdown-list__item" role="option">
+                    <a href="#" class="fd-dropdown-list__title">List item 2</a>
                 </li>
-                <li class="fd-list__item" role="option">
-                    <span href="#" class="fd-list__title">List item 3</span>
+                <li class="fd-dropdown-list__item" role="option">
+                    <a href="#" class="fd-dropdown-list__title">List item 3</a>
                 </li>
-                <li class="fd-list__item" role="option">
-                    <span href="#" class="fd-list__title">List item 4</span>
+                <li class="fd-dropdown-list__item" role="option">
+                    <a href="#" class="fd-dropdown-list__title">List item 4</a>
                 </li>
             </ul>
       </div>

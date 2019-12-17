@@ -34,10 +34,6 @@ $block: #{$fd-namespace}-multi-input;
     }
   }
 
-  &__text {
-    font-size: var(--sapFontSize);
-  }
-
   &-tokens {
     @include fd-reset();
   }
